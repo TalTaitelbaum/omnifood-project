@@ -43,7 +43,11 @@
   <body>
     <header class="header">
       <a href="#">
-        <img src="./img/omnifood-logo.png" alt="Omnifood-logo" class="logo" />
+        <img
+          src="./img/omnifood-logo-min.png"
+          alt="Omnifood-logo"
+          class="logo"
+        />
       </a>
       <nav class="main-nav">
         <ul class="main-nav-list">
@@ -112,11 +116,15 @@
           </div>
 
           <div class="hero-image-box">
-            <img
-              src="./img/hero.png"
-              class="hero-img"
-              alt="Woman enjoying food, meals in storage, and food bawls on a table"
-            />
+            <picture>
+              <source srcset="./img/hero-1200-min.webp" type="image/webp" />
+              <source srcset="./img/hero-1200-min.png" type="image/png" />
+              <img
+                src="./img/hero-1200-min.png"
+                class="hero-img"
+                alt="Woman enjoying food, meals in storage, and food bawls on a table"
+              />
+            </picture>
           </div>
         </div>
       </section>
